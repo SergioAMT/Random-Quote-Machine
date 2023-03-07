@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+} 
+
+
+#quote-box {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+
+.title {
+  width: 90%;
+  height: 40%;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid black;
+}
+
+.title h2 {
+  text-align: center;
+}
+
+#text{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#author {
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.socialMedia {
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  left: 30px;
+  gap: 20px;
+  height: 50px;
+  width: 50px;
+  font-size: 50px;
+}
+
+.socialMedia :first-child{
+  margin: 2px;
+}
+
+.socialMedia :last-child{
+  margin: 2px;
+}
+
+#new-quote {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
